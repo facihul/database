@@ -13,6 +13,7 @@ public class main {
     
     public static void main(String args[]) {
      
+        System.out.println("hello DB");
        databaseForm form = new databaseForm();
              
        form.setVisible(true);
