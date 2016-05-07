@@ -13,11 +13,11 @@ public class main {
     
     public static void main(String args[]) {
      
-        System.out.println("hello DB");
-       databaseForm form = new databaseForm();
-             
-       form.setVisible(true);
-   
-    }
+     // Properties prop = new Properties();
+       connectDB db = new connectDB();
+       db.setVisible(true);
+
+    
+    }  
     
 }
